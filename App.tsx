@@ -1,9 +1,8 @@
 import React from "react";
 import { extendTheme, NativeBaseProvider } from "native-base";
-
-import Home from "./src/screens/Home";
 import AppLoading from "expo-app-loading";
 import { useFonts } from "expo-font";
+import Routes from "./src/Routes";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -22,7 +21,6 @@ export default function App() {
       },
     },
 
-    // Make sure values below matches any of the keys in `fontConfig`
     fonts: {
       heading: "montserrat",
       body: "montserrat",
@@ -36,7 +34,7 @@ export default function App() {
   }
   return (
     <NativeBaseProvider theme={theme}>
-      <Home />
+      <Routes />
     </NativeBaseProvider>
   );
 }

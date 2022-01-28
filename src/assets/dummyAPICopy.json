@@ -1,0 +1,171 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "name": "وحدة العقيدة",
+      "progress": 1,
+      "lessonsCount": 3,
+      "defaultColor": "#FF843E",
+      "accentColor": "#F87831",
+      "lessons": [
+        {
+          "id": 1,
+          "order": 1,
+          "isFinished": true,
+          "defaultColor": "#FF843E",
+          "accentColor": "#F87831",
+          "name": "العقيدة الإسلامية",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"],
+          "sections": [
+            {
+              "title": "عنوان القسم 1",
+              "body": "نص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص"
+            },
+            {
+              "title": "عنوان القسم 2",
+              "body": "نص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص"
+            },
+            {
+              "title": "عنوان القسم 3",
+              "body": "نص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص صنص نص نص نص نص"
+            }
+          ],
+          "exam": {
+            "grade": 0,
+            "questions": [
+              {
+                "question": "السؤال الأول",
+                "answers": [
+                  { "title": "السؤال الأول", "isCorrect": false },
+                  { "title": "السؤال الثاني", "isCorrect": true },
+                  { "title": "السؤال الثالث", "isCorrect": false },
+                  { "title": "السؤال الرابع", "isCorrect": false }
+                ]
+              },
+              {
+                "question": "السؤال الثاني",
+                "answers": [
+                  { "title": "السؤال الأول", "isCorrect": true },
+                  { "title": "السؤال الثاني", "isCorrect": false },
+                  { "title": "السؤال الثالث", "isCorrect": false },
+                  { "title": "السؤال الرابع", "isCorrect": false }
+                ]
+              },
+              {
+                "question": "السؤال الثالث",
+                "answers": [
+                  { "title": "السؤال الأول", "isCorrect": false },
+                  { "title": "السؤال الثاني", "isCorrect": false },
+                  { "title": "السؤال الثالث", "isCorrect": true },
+                  { "title": "السؤال الرابع", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "isFinished": true,
+          "defaultColor": "#FF843E",
+          "accentColor": "#F87831",
+          "order": 2,
+          "name": "معنى لا إله الا الله",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"]
+        },
+        {
+          "id": 3,
+          "order": 3,
+          "isFinished": false,
+          "defaultColor": "#FF843E",
+          "accentColor": "#F87831",
+          "name": "تطبيق لا إله إلا الله",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "وحدة الطهارة",
+      "progress": 2,
+      "lessonsCount": 4,
+      "defaultColor": "#0284C7",
+      "accentColor": "#0369A1",
+
+      "lessons": [
+        {
+          "id": 4,
+          "order": 1,
+          "isFinished": true,
+          "name": "الطهارة 1",
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"]
+        },
+        {
+          "id": 5,
+          "order": 2,
+          "isFinished": true,
+          "name": "الطهارة 2",
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"]
+        },
+        {
+          "id": 6,
+          "order": 3,
+          "isFinished": false,
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "name": "الطهارة 3",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"]
+        },
+        {
+          "id": 7,
+          "order": 4,
+          "isFinished": false,
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "name": "الطهارة 4",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "وحدة أذكار الصلاة",
+      "progress": 0,
+      "lessonsCount": 3,
+      "defaultColor": "#333",
+      "accentColor": "#0369A1",
+      "lessons": [
+        {
+          "id": 8,
+          "order": 1,
+          "name": "العقيدة الإسلامية",
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"],
+          "isFinished": false
+        },
+        {
+          "id": 9,
+          "order": 2,
+          "name": "معنى لا إله الا الله",
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"],
+          "isFinished": false
+        },
+        {
+          "id": 10,
+          "order": 3,
+          "name": "تطبيق لا إله إلا الله",
+          "defaultColor": "#0284C7",
+          "accentColor": "#0369A1",
+          "goals": ["تعرف العقيدة الإسلامية", "تشرح العقيدة الإسلامية"],
+          "isFinished": false
+        }
+      ]
+    }
+  ]
+}
