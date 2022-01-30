@@ -34,28 +34,28 @@
               {
                 "question": "السؤال الأول",
                 "answers": [
-                  { "title": "السؤال الأول", "isCorrect": false },
-                  { "title": "السؤال الثاني", "isCorrect": true },
-                  { "title": "السؤال الثالث", "isCorrect": false },
-                  { "title": "السؤال الرابع", "isCorrect": false }
+                  { "title": "الإجابة الأول", "isCorrect": false },
+                  { "title": "الإجابة الثاني", "isCorrect": true },
+                  { "title": "الإجابة الثالث", "isCorrect": false },
+                  { "title": "الإجابة الرابع", "isCorrect": false }
                 ]
               },
               {
                 "question": "السؤال الثاني",
                 "answers": [
-                  { "title": "السؤال الأول", "isCorrect": true },
-                  { "title": "السؤال الثاني", "isCorrect": false },
-                  { "title": "السؤال الثالث", "isCorrect": false },
-                  { "title": "السؤال الرابع", "isCorrect": false }
+                  { "title": "الإجابة الأول", "isCorrect": true },
+                  { "title": "الإجابة الثاني", "isCorrect": false },
+                  { "title": "الإجابة الثالث", "isCorrect": false },
+                  { "title": "الإجابة الرابع", "isCorrect": false }
                 ]
               },
               {
                 "question": "السؤال الثالث",
                 "answers": [
-                  { "title": "السؤال الأول", "isCorrect": false },
-                  { "title": "السؤال الثاني", "isCorrect": false },
-                  { "title": "السؤال الثالث", "isCorrect": true },
-                  { "title": "السؤال الرابع", "isCorrect": false }
+                  { "title": "الإجابة الأول", "isCorrect": false },
+                  { "title": "الإجابة الثاني", "isCorrect": false },
+                  { "title": "الإجابة الثالث", "isCorrect": true },
+                  { "title": "الإجابة الرابع", "isCorrect": false }
                 ]
               }
             ]

@@ -3,8 +3,8 @@ import React, { createContext, useState } from "react";
 import ViewUnits from "../components/ViewUnits";
 import ViewLessons from "../components/ViewLessons";
 import { Box, Text } from "native-base";
+import { UnitContext } from "../contexts/UnitContext";
 
-export const UnitContext = createContext<any>(null);
 const Home = () => {
   const [unitID, setUnitID] = useState(0);
   return (

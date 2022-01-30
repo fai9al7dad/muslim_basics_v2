@@ -1,7 +1,7 @@
 export interface RootObject {
   units: Unit[];
 }
-
+// Main stack
 export interface Section {
   title: string;
   body: string;
@@ -45,3 +45,22 @@ export interface Unit {
 export interface RootObject {
   units: Unit[];
 }
+
+// navigation
+
+export type RootStackParamList = {
+  Home: undefined;
+  Lesson: {
+    lessonName: string;
+    unitColor: string;
+    unitAccentColor: string;
+    sections: Section[];
+    exam: Exam;
+  };
+  Exam: {
+    exam: Exam;
+    lessonName: string;
+    unitColor: string;
+    unitAccentColor: string;
+  };
+};

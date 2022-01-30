@@ -4,7 +4,7 @@ import { Box, HStack, Text } from "native-base";
 import { Unit, Lesson } from "../assets/types";
 import { units } from "../assets/dummyAPI.json";
 import Svg, { Path } from "react-native-svg";
-import { UnitContext } from "../screens/Home";
+import { UnitContext } from "../contexts/UnitContext";
 const { width } = Dimensions.get("window");
 
 export const ViewUnits: React.FC = () => {
@@ -13,16 +13,16 @@ export const ViewUnits: React.FC = () => {
   const { setUnitID } = useContext(UnitContext);
   const RenderItem: ListRenderItem<Unit | any> = ({ item }) => {
     if (!item.name) {
-      return <Box width={spacer}></Box>;
+      return <Box key={item.id} width={spacer}></Box>;
     }
     return (
       <Box
         width={BOX_SIZE}
         p={"0.5"}
         mt={10}
-        key={item.id}
+        key={item.name}
         shadow={"6"}
-        py={"3"}
+        py={"4"}
       >
         <Box
           bg={"#322B60"}
@@ -42,9 +42,10 @@ export const ViewUnits: React.FC = () => {
               {item.name}
             </Text>
             <HStack flexWrap={"wrap"}>
-              {item.lessons.map((lesson: Lesson) => {
+              {item.lessons.map((lesson: Lesson, index: number) => {
                 return (
                   <Box
+                    key={index}
                     bg={lesson.isFinished ? "#fff" : "#110A3E"}
                     mr={2}
                     mt={3}
